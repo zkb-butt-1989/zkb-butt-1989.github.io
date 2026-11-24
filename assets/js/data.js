@@ -332,7 +332,7 @@ window.PORTFOLIO = {
       client: "Venue Nest LLC",
       summary:
         "Led a team of 4 developers to build a private mobile community for wedding and event venue owners: discussion feed, photo posts, reactions, comments and official updates.",
-      tags: ["React Native", "iOS & Android", "Redux Toolkit", "Firebase", "Team lead"],
+      tags: ["React Native", "iOS & Android", "Redux Toolkit", "Firebase", "WebSockets", "Google Calendar", "Team lead"],
       links: {
         play: "https://play.google.com/store/apps/details?id=com.venuenest.rn",
         appStore: "https://apps.apple.com/us/app/venue-nest/id6773105250",
@@ -363,7 +363,15 @@ window.PORTFOLIO = {
           "Separate environment configs for development, staging and production",
           "Reusable, themed UI components",
         ],
+        built: [
+          "Calendar feature: venue owners see all their bookings in the app, synced automatically from their Google Calendar",
+          "Google Calendar connection with the required permissions, so each owner links their own Google account",
+          "End-to-end booking flow: customers submit a form with venue, date and time, our backend registers the event on the owner's Google Calendar, and it appears in the app",
+          "WebSocket integration for real-time messaging and other important live events",
+        ],
         features: [
+          "Booking calendar synced from the venue owner's Google Calendar",
+          "Real-time messaging and live updates",
           "Community feed and discussions on sales, operations, marketing, finances and more",
           "Search posts and sort by recent or relevant",
           "Reactions, comments and saved posts",
