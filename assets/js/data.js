@@ -455,13 +455,38 @@ window.PORTFOLIO = {
       category: "cross",
       client: "Cellercise · Cellular Health Innovations",
       summary:
-        "Virtual trainer app for rebounder workouts: choose pre-made routines or build your own and exercise on your schedule.",
-      tags: ["React Native", "iOS & Android", "Fitness"],
+        "Virtual trainer with 3D animated workouts, rebuilt from native apps in React Native CLI. I built native 3D rendering screens and fixed the Android memory issue that caused ANRs.",
+      tags: ["React Native CLI", "Native modules", "3D rendering", "Performance", "iOS & Android"],
       links: {
         play: "https://play.google.com/store/apps/details?id=com.cellercise.rebounder",
         appStore: "https://apps.apple.com/us/app/mr-rebounder/id1300713793",
       },
       featured: true,
+      details: {
+        overview:
+          "Mr. Rebounder is a virtual trainer for rebounder workouts. Users pick pre-made routines or build their own, guided by 3D animated exercise models, and train on their own schedule.",
+        role:
+          "The app was first built as separate native Android and iOS apps. In 2022 the company and its client decided to rebuild it in React Native CLI. I worked on the rewrite and took on its two hardest technical problems: 3D model rendering and Android memory usage.",
+        built: [
+          "Native Android and iOS screens that render the app's .g3db and .dae 3D animation models, connected to React Native through native bridges",
+          "A 3D model queue that releases each model's instance once it has played, keeping memory under control",
+        ],
+        challenges: [
+          "No stable React Native library could render .g3db and .dae 3D animation models, so the 3D screens had to be built natively for each platform and bridged into React Native",
+          "On Android the app used around 1.3 GB of RAM and kept growing with every 3D model played. With a dozen or more models of a few minutes each, it ran out of memory and triggered ANRs",
+          "Earlier attempts by other developers hadn't fixed it. I took it on and traced the cause to model instances that stayed in memory after they had already played",
+        ],
+        results: [
+          "Memory no longer grows with each 3D model played, which ended the out-of-memory ANRs on Android",
+          "Shipped the React Native rebuild on Google Play and the App Store",
+        ],
+        features: [
+          "Pre-made workout routines",
+          "Build your own custom routines",
+          "3D animated exercise models",
+          "Train on your own schedule",
+        ],
+      },
     },
     {
       name: "Genetic Basketball (GB)",
