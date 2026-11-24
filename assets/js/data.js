@@ -74,7 +74,7 @@ window.PORTFOLIO = {
     {
       icon: "smartphone",
       title: "Native Android",
-      items: ["Kotlin", "Java", "Android SDK", "MVVM", "BLE & hardware integration", "Google Play releases"],
+      items: ["Kotlin", "Java", "Android SDK", "Jetpack Compose", "MVVM", "BLE & hardware integration", "Google Play releases"],
     },
     {
       icon: "layers",
