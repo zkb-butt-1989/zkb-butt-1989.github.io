@@ -377,7 +377,7 @@ window.PORTFOLIO = {
       category: "cross",
       summary:
         "AI-powered accessibility app for colorblind users: real-time color detection, food doneness analysis and object recognition.",
-      tags: ["iOS & Android", "OpenAI", "Computer vision", "Machine learning", "RevenueCat"], // TODO: add the framework used
+      tags: ["Flutter", "iOS & Android", "OpenAI", "Computer vision", "Machine learning", "RevenueCat"],
       links: {},
       details: {
         overview:
