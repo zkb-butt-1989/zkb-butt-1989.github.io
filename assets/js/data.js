@@ -534,7 +534,7 @@ window.PORTFOLIO = {
     { name: "4-Way Traffic Light Controller", category: "plc", tech: "Siemens PLC S7-300" },
     { name: "Arithmetic Logic Unit (ALU)", category: "hdl", tech: "Verilog HDL" },
     { name: "Multi-Channel PWM Generator", category: "hdl", tech: "Verilog HDL" },
-    { name: "Single-Phase Protection (Sag, Swell & Over-current)", category: "power", tech: "Protection circuitry" },
+    { name: "Single-Phase Protection (Sag, Swell & Over-current)", category: "power", tech: "Protection circuitry", note: "Client FYP" },
     { name: "Tap Changing with SCR", category: "power", tech: "MATLAB / Simulink" },
     { name: "DC to AC Push-Pull Inverter", category: "power", tech: "Power electronics" },
     { name: "Audio Amplifier with Op-Amp", category: "power", tech: "Analog electronics" },
