@@ -22,7 +22,10 @@ window.PORTFOLIO = {
     about: [
       "I'm a Senior Software Engineer with 8+ years of experience taking mobile products from architecture to release. I currently lead native Android development for <strong>Martoo</strong>, a grocery shopping app, and its B2B companion <strong>Martoo Wholesale</strong>, where I own architecture decisions, code reviews and release management.",
       "I also spent nearly six years at <strong>3S Solutions</strong>, growing from Mobile Application Developer to Senior Software Engineer and owning end-to-end delivery for native and cross-platform apps in Agile teams running Scrum and Kanban. Along the way I've shipped apps on Google Play and the App Store for restaurants, distributors, event venues, wellness and fitness brands, accounting firms, golf academies and educators.",
-      "My path into software started in electrical engineering. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career at <strong>Bilal Switchgear Engineering</strong>, designing industrial LT and MV electrical panels and working on R&D for new panel designs, then taking them through testing and final inspection. I later moved into industrial electronics, diagnosing and maintaining CTP imaging machines. That design, prototype and test mindset still shapes how I build software, especially for BLE and hardware integrations.",
+      "My path into software started in electrical engineering. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career at <strong>Bilal Switchgear Engineering</strong>, designing industrial LT and MV electrical panels and working on R&D for new panel designs, then taking them through testing and final inspection. I later moved into industrial electronics, diagnosing and maintaining CTP imaging machines.",
+      "Programming has been my passion since 2006, when I wrote my first lines of <strong>GW-BASIC</strong> in school. I always wanted to work on hybrid and IoT systems where hardware and software meet, so I moved into software engineering, the field that gives the most room to build. That design, prototype and test mindset from engineering still shapes how I build software, especially for BLE and hardware integrations.",
+      "Over the last few months I've made <strong>agentic AI</strong> part of how I work, to ship faster while keeping code clean and secure. I plan every task with an AI agent such as Cursor or Claude: I ask questions and weigh its suggestions, the agent asks me clarifying questions, and together we arrive at a solid plan. I review and revise that plan myself before letting the agent implement it.",
+      "Looking ahead, I'm learning to become a Forward Deployed Engineer and agentic AI architect through <a href=\"https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect/\" target=\"_blank\" rel=\"noopener noreferrer\">The Forward Deployed Engineer & Agentic AI Architect</a> course.",
     ],
     email: "zabi.butt1989@gmail.com",
     linkedin: "https://www.linkedin.com/in/zubair-khalid-20bb769a/",
@@ -727,6 +730,14 @@ window.PORTFOLIO = {
 
   // Certifications & technical courses (newest first). `link` is optional.
   certifications: [
+    {
+      name: "The Forward Deployed Engineer & Agentic AI Architect",
+      issuer: "Udemy",
+      date: "In progress",
+      description: "Learning the Forward Deployed Engineer role and how to design and build agentic AI systems.",
+      link: "https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect/",
+      linkLabel: "View course",
+    },
     {
       name: "Flutter & Dart: The Complete Guide",
       issuer: "Udemy",
