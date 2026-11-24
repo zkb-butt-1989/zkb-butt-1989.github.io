@@ -365,9 +365,11 @@
         return (
           '<li class="cert reveal">' +
           '<span class="cert__icon">' + icon("award") + "</span>" +
-          "<div>" +
+          '<div class="cert__body">' +
           '<p class="cert__name">' + esc(c.name) + "</p>" +
-          (c.issuer ? '<p class="cert__issuer">' + esc(c.issuer) + "</p>" : "") +
+          '<p class="cert__issuer">' + [c.issuer, c.date].filter(Boolean).map(esc).join(" · ") + "</p>" +
+          (c.description ? '<p class="cert__desc">' + esc(c.description) + "</p>" : "") +
+          (c.link ? '<a class="cert__link" ' + extLink(c.link) + ">View certificate" + icon("arrowUpRight") + "</a>" : "") +
           "</div></li>"
         );
       })

@@ -561,9 +561,34 @@ window.PORTFOLIO = {
     },
   ],
 
+  // Certifications & technical courses (newest first). `link` is optional.
   certifications: [
-    { name: "Certified Android Application Development", issuer: "EVS" },
-    { name: "PLC, HMI & SCADA Training", issuer: "EESINT Ltd." },
-    { name: "Computer Graphic Designing", issuer: "" },
+    {
+      name: "Flutter & Dart: The Complete Guide",
+      issuer: "Udemy",
+      date: "Mar 2021",
+      description: "Building iOS and Android apps with Flutter and Dart: widgets, state management, HTTP and device features.",
+      link: "", // TODO: paste the Udemy certificate URL
+    },
+    {
+      name: "Certified Android Application Development",
+      issuer: "EVS Training Institute",
+      date: "Feb 2018 - Jun 2018",
+      description:
+        "Hands-on training in Android app development using Java, Android SDK, Android Studio and Firebase, covering UI development, data storage, REST APIs, device features and Google Play Store publishing.",
+    },
+    {
+      name: "PLC, HMI & SCADA Professional Training",
+      issuer: "Electrical Engineering Solution International (EESINT)",
+      date: "Aug 2015",
+      description: "Professional training in PLC programming, HMI design and SCADA systems for industrial automation.",
+    },
+    {
+      name: "Computer Graphic Designing",
+      issuer: "Edge Systems International College",
+      date: "Oct 2007",
+      description:
+        "Covered graphic design fundamentals and advanced 3D graphic design, with hands-on practice building a design portfolio.",
+    },
   ],
 };

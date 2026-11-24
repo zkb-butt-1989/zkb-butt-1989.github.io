@@ -1450,7 +1450,7 @@ svg {
 
 .cert {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 14px;
   padding: 14px 16px;
   border-radius: var(--radius);
@@ -1482,8 +1482,31 @@ svg {
 }
 
 .cert__issuer {
+  margin-top: 2px;
   font-size: 13px;
+  font-family: var(--font-mono);
   color: var(--muted);
+}
+
+.cert__desc {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-2);
+}
+
+.cert__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cert__link svg {
+  width: 14px;
+  height: 14px;
 }
 
 /* ---------- Contact ---------- */
