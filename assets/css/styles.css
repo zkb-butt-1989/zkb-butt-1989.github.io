@@ -1266,8 +1266,12 @@ svg {
 }
 
 /* ---------- Archive ---------- */
+/* higher specificity so the mobile .section padding rule doesn't override it */
+.section.section--archive {
+  padding-top: 0;
+}
+
 .archive {
-  margin-top: 72px;
   padding: 28px;
   border-radius: var(--radius-lg);
   background: var(--surface);

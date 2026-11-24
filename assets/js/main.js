@@ -557,7 +557,7 @@
       var line = window.innerHeight * 0.4;
       var current = sections[0] ? sections[0].id : null;
       sections.forEach(function (s) {
-        if (s.getBoundingClientRect().top <= line) current = s.id;
+        if (s.getBoundingClientRect().top <= line) current = s.getAttribute("data-nav") || s.id;
       });
       var atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
       if (atBottom && sections.length) current = sections[sections.length - 1].id;
