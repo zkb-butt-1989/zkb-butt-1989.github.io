@@ -21,7 +21,7 @@ window.PORTFOLIO = {
       "I architect, build and ship high-performance mobile apps across native Android, Flutter, React Native and Ionic, backed by full-stack .NET and SQL Server experience.",
     about: [
       "I'm a Senior Software Engineer with 8+ years of experience taking mobile products from architecture to release. I currently lead native Android development for <strong>Martoo</strong>, a grocery shopping app, and its B2B companion <strong>Martoo Wholesale</strong>, where I own architecture decisions, code reviews and release management.",
-      "I also spent nearly six years at <strong>3S Solutions</strong>, growing from Mobile Application Developer to Senior Software Engineer and owning end-to-end delivery for native and cross-platform apps. Along the way I've shipped apps on Google Play and the App Store for restaurants, distributors, event venues, wellness and fitness brands, accounting firms, golf academies and educators.",
+      "I also spent nearly six years at <strong>3S Solutions</strong>, growing from Mobile Application Developer to Senior Software Engineer and owning end-to-end delivery for native and cross-platform apps in Agile teams running Scrum and Kanban. Along the way I've shipped apps on Google Play and the App Store for restaurants, distributors, event venues, wellness and fitness brands, accounting firms, golf academies and educators.",
       "My path into software started in electrical engineering. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career at <strong>Bilal Switchgear Engineering</strong>, designing industrial LT and MV electrical panels and working on R&D for new panel designs, then taking them through testing and final inspection. I later moved into industrial electronics, diagnosing and maintaining CTP imaging machines. That design, prototype and test mindset still shapes how I build software, especially for BLE and hardware integrations.",
     ],
     email: "zabi.butt1989@gmail.com",
@@ -88,8 +88,18 @@ window.PORTFOLIO = {
     },
     {
       icon: "shield",
-      title: "Quality & Delivery",
-      items: ["JUnit", "Espresso", "CI/CD", "Code review", "Performance profiling", "Release management"],
+      title: "Process & Delivery",
+      items: [
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "CI/CD",
+        "Code review",
+        "JUnit",
+        "Espresso",
+        "Performance profiling",
+        "Release management",
+      ],
     },
     {
       icon: "cpu",
@@ -170,6 +180,7 @@ window.PORTFOLIO = {
             "Drove performance and stability work through systematic profiling, reducing startup time, memory usage and crash rates.",
             "Integrated BLE/hardware features and established CI/CD pipelines and engineering standards that increased release velocity and code quality.",
             "Worked directly with product and design teams to shape UX decisions and improve user engagement.",
+            "Delivered in Agile teams using Scrum (sprint planning, daily stand-ups, reviews and retrospectives) and Kanban for continuous flow of features and fixes.",
           ],
         },
         {
@@ -183,7 +194,7 @@ window.PORTFOLIO = {
           ],
         },
       ],
-      tags: ["Kotlin", "Java", "React Native", "Ionic", "BLE", "CI/CD", "JUnit", "Espresso"],
+      tags: ["Kotlin", "Java", "React Native", "Ionic", "BLE", "CI/CD", "JUnit", "Espresso", "Agile", "Scrum", "Kanban"],
     },
     {
       company: "Graffitecs",
