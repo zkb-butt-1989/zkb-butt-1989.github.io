@@ -353,6 +353,44 @@ window.PORTFOLIO = {
       featured: true,
     },
     {
+      name: "Genetic Basketball (GB)",
+      category: "cross",
+      summary:
+        "Flutter basketball app for iOS and Android that connects players with community centers for games, 8v8 tournaments and live chat.",
+      tags: ["Flutter", "iOS & Android", "Firebase", "AWS Amplify", "RevenueCat"],
+      links: {},
+      details: {
+        overview: "GB is a Flutter basketball app for iOS and Android, connecting players with community centers.",
+        role: "Mobile Lead: led development, code reviews and the complex modules, and handled App Store and Google Play submissions.",
+        features: [
+          "Match scheduling: players register for games at community centers",
+          "Tournament management: 8v8 matches with rankings and stats",
+          "Multi-role access for players, managers and admins",
+          "Live chat and updates: real-time messaging with WebSockets and Firebase",
+          "In-app purchases: RevenueCat with restore flows",
+          "Cloud backend: AWS Amplify, S3 and Firebase",
+        ],
+      },
+    },
+    {
+      name: "Hue Spectra",
+      category: "cross",
+      summary:
+        "AI-powered accessibility app for colorblind users: real-time color detection, food doneness analysis and object recognition.",
+      tags: ["iOS & Android", "OpenAI", "Computer vision", "Machine learning", "RevenueCat"], // TODO: add the framework used
+      links: {},
+      details: {
+        overview:
+          "An AI-powered accessibility app for colorblind users, built with machine learning, computer vision and OpenAI for real-time color detection and object analysis.",
+        features: [
+          "Real-time color detection: instantly identifies colors in RGB and HEX",
+          "Smart food analysis: detects raw, cooked or overcooked food from color and texture",
+          "Object recognition: computer vision analyzes objects and their colors",
+          "In-app subscriptions: RevenueCat integration with purchase and restore flows",
+        ],
+      },
+    },
+    {
       name: "SAMS Online - Sales Automation",
       category: "android",
       client: "Fast Services",
@@ -434,13 +472,6 @@ window.PORTFOLIO = {
       tags: ["Android", "EdTech", "Video"],
       links: { play: "https://play.google.com/store/apps/details?id=com.sibme.mobileapp" },
       featured: true,
-    },
-    {
-      name: "GeneticBasketBall",
-      category: "cross",
-      summary: "Basketball app built with Flutter for Android and iOS.", // TODO: details
-      tags: ["Flutter", "Dart"],
-      links: {},
     },
     {
       name: "CritMe",
