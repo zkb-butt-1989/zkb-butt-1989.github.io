@@ -100,6 +100,7 @@ window.PORTFOLIO = {
         "Expo EAS",
         "OTA (over-the-air) updates",
         "Code review",
+        "Agentic AI development (Cursor, Claude)",
         "JUnit",
         "Espresso",
         "Performance profiling",
