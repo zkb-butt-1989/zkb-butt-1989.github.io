@@ -84,7 +84,7 @@ window.PORTFOLIO = {
     {
       icon: "server",
       title: "Backend & Data",
-      items: [".NET Core", "ASP.NET MVC", "C#", "RESTful APIs", "MS SQL Server", "WPF"],
+      items: [".NET Core", "ASP.NET MVC", "C#", "Entity Framework", "RESTful APIs", "MS SQL Server", "Stored Procedures", "WPF"],
     },
     {
       icon: "shield",
