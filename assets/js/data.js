@@ -162,11 +162,11 @@ window.PORTFOLIO = {
             "Delivered new features across both apps, including ordering, account and loyalty flows.",
             "Improved app stability and crash resilience, and kept both apps current with the latest Android releases and Play requirements.",
             "Responsible for architecture decisions, code reviews and release management for both apps.",
-            "Plan and deliver work in Agile sprints with Scrum, using Kanban to keep features, fixes and releases flowing.",
+            "Plan and deliver features, fixes and releases following an Agile development process.",
           ],
         },
       ],
-      tags: ["Kotlin", "Android", "Architecture", "Code review", "Release management", "Agile", "Scrum", "Kanban"],
+      tags: ["Kotlin", "Android", "Architecture", "Code review", "Release management", "Agile"],
     },
     {
       company: "3S Solutions (Pvt) Ltd",
