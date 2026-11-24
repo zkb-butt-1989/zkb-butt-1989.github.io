@@ -22,7 +22,7 @@ window.PORTFOLIO = {
     about: [
       "I'm a Senior Software Engineer with 8+ years of experience taking mobile products from architecture to release. I currently lead native Android development for <strong>Martoo</strong>, a grocery shopping app, and its B2B companion <strong>Martoo Wholesale</strong>, where I own architecture decisions, code reviews and release management.",
       "I also spent nearly six years at <strong>3S Solutions</strong>, growing from Mobile Application Developer to Senior Software Engineer and owning end-to-end delivery for native and cross-platform apps. Along the way I've shipped apps on Google Play and the App Store for restaurants, distributors, event venues, wellness and fitness brands, accounting firms, golf academies and educators.",
-      "My path into software started in hardware. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career testing switchgear panels and maintaining industrial imaging machines. That background still shapes how I work, especially on BLE and hardware integrations.",
+      "My path into software started in electrical engineering. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career at <strong>Bilal Switchgear Engineering</strong>, designing industrial LT and MV electrical panels and working on R&D for new panel designs, then taking them through testing and final inspection. I later moved into industrial electronics, diagnosing and maintaining CTP imaging machines. That design, prototype and test mindset still shapes how I build software, especially for BLE and hardware integrations.",
     ],
     email: "zabi.butt1989@gmail.com",
     linkedin: "https://www.linkedin.com/in/zubair-khalid-20bb769a/",
@@ -264,13 +264,14 @@ window.PORTFOLIO = {
           start: "May 2014",
           end: "Feb 2016",
           bullets: [
-            "Electrical testing, final inspection and troubleshooting of LT and MV switchgear panels, with test reports.",
+            "Designed industrial LT and MV electrical panels: automatic changeover, integrated power system, PFI and MCC panels, power & lighting DBs, and WAPDA-approved and private industrial MV panels.",
+            "Worked on R&D for new panel designs and improvements to existing products.",
             "Configured modules, PFI relays, protection relays and energy analyzers.",
-            "Worked on automatic changeover, integrated power system, PFI and MCC panels, power & lighting DBs, and WAPDA-approved and private industrial MV panels.",
+            "Carried out electrical testing, final inspection and troubleshooting of finished panels, and prepared test reports.",
           ],
         },
       ],
-      tags: ["Switchgear", "Protection relays", "Testing & inspection"],
+      tags: ["Panel design", "R&D", "LT / MV switchgear", "Protection relays", "Testing & inspection"],
     },
   ],
 
