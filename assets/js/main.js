@@ -435,6 +435,8 @@
       (p.client ? '<p class="modal__client">' + esc(p.client) + "</p>" : "") +
       textSection("Overview", d.overview || p.summary) +
       textSection("My role", d.role) +
+      listSection("Leadership & delivery", d.responsibilities, true) +
+      listSection("App foundation I set up", d.architecture, true) +
       listSection("Key features", d.features, true) +
       listSection("Challenges", d.challenges, true) +
       listSection("Results", d.results, true) +

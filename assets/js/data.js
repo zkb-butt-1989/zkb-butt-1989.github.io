@@ -331,13 +331,46 @@ window.PORTFOLIO = {
       category: "cross",
       client: "Venue Nest LLC",
       summary:
-        "Private mobile community for wedding and event venue owners: a discussion feed, photo posts, reactions, comments, saved posts and official updates.",
-      tags: ["React Native", "iOS & Android", "Community"],
+        "Led a team of 4 developers to build a private mobile community for wedding and event venue owners: discussion feed, photo posts, reactions, comments and official updates.",
+      tags: ["React Native", "iOS & Android", "Redux Toolkit", "Firebase", "Team lead"],
       links: {
         play: "https://play.google.com/store/apps/details?id=com.venuenest.rn",
         appStore: "https://apps.apple.com/us/app/venue-nest/id6773105250",
       },
       featured: true,
+      details: {
+        overview:
+          "Venue Nest is a private mobile community for wedding and event venue owners. Owners connect with peers, join discussions on sales, operations, marketing and more, and get official updates, without the noise of public social media.",
+        role:
+          "Mobile Team Lead for a team of 4 developers. I set up the React Native app foundation, built the most complex features myself, and owned code quality, planning and releases from kickoff to store launch.",
+        responsibilities: [
+          "Led a team of 4 developers: planned, assigned and tracked tasks",
+          "Built the most complex features in the app",
+          "Reviewed code and pull requests to keep quality and standards consistent",
+          "Wrote documentation: module details, use cases and edge cases",
+          "Managed full releases to Google Play and the App Store",
+          "Ran client demos at each milestone",
+        ],
+        architecture: [
+          "Clean, scalable React Native project structure as the team's baseline",
+          "Redux Toolkit for predictable state management",
+          "Custom hooks for shared logic and data fetching",
+          "API layer with interceptors for auth tokens and centralized error handling",
+          "Secure storage for tokens and sensitive data",
+          "Firebase: Remote Config, Analytics, Crashlytics and push notifications",
+          "TypeScript with ESLint and Prettier for consistent, type-safe code",
+          "React Navigation structure shared across all modules",
+          "Separate environment configs for development, staging and production",
+          "Reusable, themed UI components",
+        ],
+        features: [
+          "Community feed and discussions on sales, operations, marketing, finances and more",
+          "Search posts and sort by recent or relevant",
+          "Reactions, comments and saved posts",
+          "Create posts with photos and respond to prompts",
+          "Official updates from the Venue Nest team",
+        ],
+      },
     },
     {
       name: "Essential Emotions+",
