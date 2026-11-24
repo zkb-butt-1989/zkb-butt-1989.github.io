@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zubair Khalid — Senior Software Engineer (Mobile)</title>
+    <meta
+      name="description"
+      content="Zubair Khalid — Senior Software Engineer with 8+ years building Android, Flutter, React Native and Ionic apps, backed by full-stack .NET experience."
+    />
+    <meta name="author" content="Zubair Khalid" />
+    <meta name="theme-color" id="meta-theme-color" content="#f8fafc" />
+
+    <link rel="canonical" href="https://zkb-butt-1989.github.io/" />
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zkb-butt-1989.github.io/" />
+    <meta property="og:title" content="Zubair Khalid — Senior Software Engineer (Mobile)" />
+    <meta
+      property="og:description"
+      content="Android · Flutter · React Native · .NET — 8+ years shipping mobile apps from architecture to release."
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Apply saved / system theme before first paint to avoid a flash -->
+    <script>
+      (function () {
+        var t;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var root = document.documentElement;
+        root.setAttribute("data-theme", t);
+        root.classList.add("js");
+        var meta = document.getElementById("meta-theme-color");
+        if (meta) meta.setAttribute("content", t === "dark" ? "#0b1220" : "#f8fafc");
+      })();
+    </script>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============ Navigation ============ -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a class="nav__logo" href="#home" aria-label="Zubair Khalid — back to top">
+          <span class="nav__logo-mark">ZK</span>
+          <span class="nav__logo-text">Zubair Khalid</span>
+        </a>
+
+        <nav class="nav__menu" id="nav-menu" aria-label="Primary">
+          <ul class="nav__links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav__actions">
+          <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+            <span class="icon-sun" data-icon="sun"></span>
+            <span class="icon-moon" data-icon="moon"></span>
+          </button>
+          <button
+            class="icon-btn nav__burger"
+            id="menu-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="icon-menu" data-icon="menu"></span>
+            <span class="icon-close" data-icon="x"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ Hero ============ -->
+      <section class="hero" id="home" aria-label="Introduction">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <p class="hero__eyebrow" id="hero-role"></p>
+            <h1 class="hero__name" id="hero-name"></h1>
+            <p class="hero__title" id="hero-title"></p>
+            <p class="hero__pitch" id="hero-pitch"></p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#projects">View projects</a>
+              <a class="btn btn--ghost" href="#contact">Get in touch</a>
+              <a class="btn btn--ghost" id="hero-resume" href="#" hidden>Résumé</a>
+            </div>
+            <ul class="socials" id="hero-socials" aria-label="Social links"></ul>
+          </div>
+
+          <aside class="profile-card reveal" id="profile-card" aria-label="Quick info"></aside>
+        </div>
+
+        <div class="container">
+          <ul class="stats reveal" id="stats" aria-label="Career at a glance"></ul>
+        </div>
+      </section>
+
+      <!-- ============ About ============ -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">01 · About</p>
+            <h2 class="section__title" id="about-title">From circuits to code</h2>
+          </header>
+          <div class="about">
+            <div class="about__text reveal" id="about-text"></div>
+            <ul class="highlights" id="highlights" aria-label="Highlights"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Skills ============ -->
+      <section class="section section--alt" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">02 · Skills</p>
+            <h2 class="section__title" id="skills-title">What I work with</h2>
+            <p class="section__lead">
+              Mobile first, with the backend and hardware knowledge to own a feature end to end.
+            </p>
+          </header>
+          <div class="skills" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <!-- ============ Experience ============ -->
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">03 · Experience</p>
+            <h2 class="section__title" id="experience-title">Where I've worked</h2>
+          </header>
+          <ol class="timeline" id="timeline"></ol>
+
+          <details class="earlier reveal" id="earlier">
+            <summary class="earlier__summary">
+              <span>
+                <strong>Earlier engineering career</strong>
+                <span class="earlier__meta">Electrical &amp; electronics engineering · 2014 – 2018</span>
+              </span>
+              <span class="earlier__chevron" data-icon="chevron"></span>
+            </summary>
+            <ol class="timeline timeline--muted" id="timeline-earlier"></ol>
+          </details>
+        </div>
+      </section>
+
+      <!-- ============ Projects ============ -->
+      <section class="section section--alt" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">04 · Projects</p>
+            <h2 class="section__title" id="projects-title">Things I've built</h2>
+            <p class="section__lead">Production apps for clients in retail, restaurants, events, wellness, finance, fitness, sport and education.</p>
+          </header>
+
+          <div class="filters" id="project-filters" role="group" aria-label="Filter projects"></div>
+          <ul class="projects" id="projects-grid"></ul>
+
+          <div class="archive reveal" id="archive">
+            <div class="archive__head">
+              <div>
+                <h3 class="archive__title">Engineering &amp; academic archive</h3>
+                <p class="archive__lead">Embedded, PLC, FPGA and electronics work from university and freelance projects.</p>
+              </div>
+              <div class="filters filters--small" id="archive-filters" role="group" aria-label="Filter archive"></div>
+            </div>
+            <div class="table-wrap">
+              <table class="archive__table">
+                <thead>
+                  <tr>
+                    <th scope="col">Project</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Built with</th>
+                    <th scope="col"><span class="sr-only">Note</span></th>
+                  </tr>
+                </thead>
+                <tbody id="archive-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Education ============ -->
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">05 · Education</p>
+            <h2 class="section__title" id="education-title">Education &amp; certifications</h2>
+          </header>
+          <div class="edu">
+            <div class="edu__col">
+              <h3 class="edu__heading"><span data-icon="book"></span>Education</h3>
+              <ol class="edu__list" id="education-list"></ol>
+            </div>
+            <div class="edu__col">
+              <h3 class="edu__heading"><span data-icon="award"></span>Certifications</h3>
+              <ul class="cert-list" id="cert-list"></ul>
+              <h3 class="edu__heading edu__heading--spaced"><span data-icon="globe"></span>Languages</h3>
+              <ul class="chips" id="languages"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Contact ============ -->
+      <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact reveal">
+            <p class="eyebrow">06 · Contact</p>
+            <h2 class="contact__title" id="contact-title">Let's work together</h2>
+            <p class="contact__text">
+              Building a mobile product, growing your team, or just want to talk shop? My inbox is open, and I'll get back
+              to you.
+            </p>
+            <div class="contact__actions" id="contact-actions"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Zubair Khalid. Built with HTML, CSS &amp; JavaScript.</p>
+        <a class="footer__top" href="#home"><span data-icon="arrowUp"></span>Back to top</a>
+      </div>
+    </footer>
+
+    <!-- Project details dialog -->
+    <dialog class="modal" id="project-modal" aria-labelledby="modal-title">
+      <div class="modal__inner" id="modal-content"></div>
+    </dialog>
+
+    <noscript>
+      <p class="noscript">This portfolio needs JavaScript to display its content.</p>
+    </noscript>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
