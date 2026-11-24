@@ -74,7 +74,7 @@ window.PORTFOLIO = {
     {
       icon: "smartphone",
       title: "Native Android",
-      items: ["Kotlin", "Java", "Android SDK", "Jetpack Compose", "MVVM", "BLE & hardware integration", "Google Play releases"],
+      items: ["Kotlin", "Java", "Android SDK", "Jetpack Compose", "MVVM", "Kodein (DI)", "BLE & hardware integration", "Google Play releases"],
     },
     {
       icon: "layers",
@@ -84,7 +84,7 @@ window.PORTFOLIO = {
     {
       icon: "server",
       title: "Backend & Data",
-      items: [".NET Core", "ASP.NET MVC", "C#", "Entity Framework", "RESTful APIs", "MS SQL Server", "Stored Procedures", "WPF"],
+      items: [".NET Core", "ASP.NET MVC", "C#", "Entity Framework", "RESTful APIs", "MS SQL Server", "Stored Procedures", "AWS AppSync", "DynamoDB", "WPF"],
     },
     {
       icon: "shield",
