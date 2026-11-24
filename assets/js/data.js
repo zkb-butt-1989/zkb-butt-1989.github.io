@@ -377,13 +377,36 @@ window.PORTFOLIO = {
       category: "cross",
       client: "Essential Emotions",
       summary:
-        "On-the-go guide to emotions and doTERRA essential oils: look up 500+ emotions, 100+ oils and 250+ body systems, then get guided oil selection and application.",
-      tags: ["React Native", "iOS & Android", "Wellness"],
+        "Led this guide to emotions and doTERRA essential oils from Ionic to a from-scratch React Native rewrite, including custom auto-renewing subscriptions built with native modules.",
+      tags: ["React Native", "Ionic & Angular", "Capacitor", "Native modules", "In-app subscriptions"],
       links: {
         play: "https://play.google.com/store/apps/details?id=com.essentialemotion.guru",
         appStore: "https://apps.apple.com/us/app/essential-emotions/id6497874332",
       },
       featured: true,
+      details: {
+        overview:
+          "Essential Emotions+ is an on-the-go guide to emotions and doTERRA essential oils. Users look up 500+ emotions, 100+ oils or 250+ body parts and systems, then get guided through oil selection, application and emotional processing.",
+        role:
+          "Led the app through two generations. My team and I first built and maintained it in Ionic with Angular and Capacitor for several months. I then led a full rewrite in React Native from scratch, set up its clean baseline structure and worked on the complex modules.",
+        responsibilities: [
+          "Led the team on the original Ionic app built with Angular and Capacitor plugins",
+          "Led the migration from Ionic to React Native, rewriting the app from scratch",
+          "Set up a clean, scalable React Native baseline structure for the rewrite",
+          "Worked on the most complex modules",
+          "Built the in-app subscription flow with the team, down to the native layer",
+        ],
+        challenges: [
+          "Auto-renewing subscriptions (monthly and yearly) needed custom behaviour for special use cases that off-the-shelf libraries couldn't cover",
+          "Implemented the subscription flow in native code and exposed it to React Native through a native bridge, handling purchase, renewal, restore and expiry cases",
+        ],
+        features: [
+          "Look up 500+ emotions, 100+ essential oils and 250+ body parts and systems",
+          "Recommended oils with processing support: declarations and visualizations",
+          "Guided oil selection, application and emotional processing",
+          "Monthly and yearly auto-renewing subscriptions",
+        ],
+      },
     },
     {
       name: "Genetic Basketball (GB)",
