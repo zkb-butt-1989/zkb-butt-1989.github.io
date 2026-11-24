@@ -225,12 +225,13 @@ window.PORTFOLIO = {
           end: "Jul 2020",
           bullets: [
             "Developed Android apps and ASP.NET MVC back ends with RESTful APIs and database layers.",
+            "Built cross-platform mobile apps with Flutter and Dart, connecting them to the same REST back ends.",
             "Worked with the back-end team to optimize SQL queries and improve data consistency across mobile features.",
             "Took part in testing, debugging and release activities for stable production deployments.",
           ],
         },
       ],
-      tags: ["Android", "Java", "ASP.NET MVC", "C#", "SQL Server"],
+      tags: ["Android", "Java", "Flutter", "Dart", "ASP.NET MVC", "C#", "SQL Server"],
     },
     {
       company: "Inovedia Technologies",
