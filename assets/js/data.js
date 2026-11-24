@@ -471,13 +471,6 @@ window.PORTFOLIO = {
       links: {},
     },
     {
-      name: "Calculator",
-      category: "android",
-      summary: "Android calculator app.", // TODO: details
-      tags: ["Android"],
-      links: {},
-    },
-    {
       name: "HR Management System",
       category: "web",
       summary: ".NET back end for an HR management system: REST APIs and a SQL Server data layer.", // TODO: details
