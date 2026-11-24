@@ -127,7 +127,7 @@
       .join("");
 
     var avatar = p.photo
-      ? '<img src="' + esc(p.photo) + '" alt="' + esc(p.name) + '" width="72" height="72" />'
+      ? '<img src="' + esc(p.photo) + '" alt="' + esc(p.name) + '" width="96" height="96" decoding="async" />'
       : esc(p.initials);
 
     $("#profile-card").innerHTML =
@@ -215,7 +215,7 @@
           '<div class="role">' +
           '<div class="role__head">' +
           '<h4 class="role__title">' + esc(role.title) + badge + "</h4>" +
-          '<span class="role__dates">' + esc(role.start) + " — " + esc(role.end) + "</span>" +
+          '<span class="role__dates">' + esc(role.start) + " - " + esc(role.end) + "</span>" +
           "</div>" +
           '<ul class="role__bullets">' +
           role.bullets.map(function (b) { return "<li>" + esc(b) + "</li>"; }).join("") +

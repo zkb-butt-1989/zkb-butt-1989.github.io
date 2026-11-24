@@ -1,4 +1,4 @@
-# Zubair Khalid — Portfolio
+# Zubair Khalid - Portfolio
 
 Live at **https://zkb-butt-1989.github.io** (repository `zkb-butt-1989/zkb-butt-1989.github.io`).
 
@@ -67,7 +67,7 @@ Then open http://localhost:8080.
 
 ### Optional: custom domain
 
-Buy a domain such as `zubairkhalid.dev` (Cloudflare Registrar and Porkbun sell at cost, roughly $10–15 a year). Then:
+Buy a domain such as `zubairkhalid.dev` (Cloudflare Registrar and Porkbun sell at cost, roughly $10-15 a year). Then:
 
 1. Add a file named `CNAME` to this folder containing just the domain, e.g. `zubairkhalid.dev`.
 2. At your DNS provider, add `A` records for the apex domain pointing to GitHub Pages

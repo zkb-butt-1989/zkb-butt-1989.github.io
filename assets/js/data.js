@@ -2,7 +2,7 @@
    PORTFOLIO CONTENT
    --------------------------------------------------------------------------
    Every piece of text on the site lives in this file. Edit it to update the
-   page — no HTML or CSS changes needed. `profile.about` paragraphs may use
+   page - no HTML or CSS changes needed. `profile.about` paragraphs may use
    simple HTML such as <strong>; everything else is plain text.
 
    Project details: add a `details` object to any project (see the Martoo
@@ -13,7 +13,7 @@ window.PORTFOLIO = {
   profile: {
     name: "Zubair Khalid",
     initials: "ZK",
-    title: "Senior Software Engineer — Mobile",
+    title: "Senior Software Engineer - Mobile",
     stack: "Android · Flutter · React Native · .NET",
     currentRole: "Lead Mobile Engineer at Martoo",
     location: "Lahore, Pakistan",
@@ -27,7 +27,7 @@ window.PORTFOLIO = {
     email: "zabi.butt1989@gmail.com",
     linkedin: "https://www.linkedin.com/in/zubair-khalid-20bb769a/",
     github: "https://github.com/zkb-butt-1989",
-    photo: "", // TODO: optional, e.g. "assets/img/profile.jpg" (square, at least 400×400)
+    photo: "assets/img/profile.jpg", // square, at least 400×400
     resume: "", // TODO: optional, e.g. "assets/Zubair-Khalid-Resume.pdf" (shows a "Résumé" button)
     languages: ["English (Professional)", "Urdu (Native)"],
     // Rows on the hero "quick info" card.
@@ -347,7 +347,7 @@ window.PORTFOLIO = {
       featured: true,
     },
     {
-      name: "SAMS Online — Sales Automation",
+      name: "SAMS Online - Sales Automation",
       category: "android",
       client: "Fast Services",
       summary:
@@ -546,17 +546,17 @@ window.PORTFOLIO = {
 
   education: [
     {
-      degree: "Engineering Degree — Electrical, Electronics & Communications",
+      degree: "Engineering Degree - Electrical, Electronics & Communications",
       school: "The University of Lahore",
-      period: "2010 – 2014",
-      note: "Final year project: Controlled Shed Using Automatic Wireless Updates — automated temperature, feeding and drinking control with GSM alerts for critical conditions.",
+      period: "2010 - 2014",
+      note: "Final year project: Controlled Shed Using Automatic Wireless Updates - automated temperature, feeding and drinking control with GSM alerts for critical conditions.",
     },
     {
-      degree: "Diploma — Computer Hardware Engineering",
+      degree: "Diploma - Computer Hardware Engineering",
       school: "Punjab Board of Technical Education, Lahore",
     },
     {
-      degree: "HSSC & SSC — Science",
+      degree: "HSSC & SSC - Science",
       school: "Board of Intermediate & Secondary Education, Lahore",
     },
   ],
