@@ -543,10 +543,26 @@ window.PORTFOLIO = {
       category: "android",
       client: "Fast Services",
       summary:
-        "Order-taking app for waiters at dine-in and take-away counters, powered by the CORN POS restaurant management system.",
-      tags: ["Android", "POS", "Restaurants"],
+        "Order-taking app for waiters at dine-in and take-away counters, part of the CORN POS restaurant system. I built new modules, fixed issues and improved the existing Jetpack Compose app.",
+      tags: ["Kotlin", "Jetpack Compose", "Native Android", "POS", "Restaurants"],
       links: { play: "https://play.google.com/store/apps/details?id=com.corn.cornpos" },
       featured: true,
+      details: {
+        overview:
+          "CORN POS TableTap is an order-taking app for waiters at dine-in and take-away counters, powered by CORN POS, a complete restaurant management system. Staff take orders on the go for quicker service.",
+        role:
+          "Worked with Fast Services on their existing native Android app, built with Jetpack Compose. I joined an established codebase, implemented new modules, and spent much of my time fixing issues and making improvements across the app.",
+        built: [
+          "New modules added to the existing Jetpack Compose app",
+          "Bug fixes across the app",
+          "Improvements to existing screens and flows",
+        ],
+        features: [
+          "Order management for dine-in and take-away",
+          "Order taking on the go for faster table service",
+          "Integrated with the CORN POS restaurant management system",
+        ],
+      },
     },
     {
       name: "CORN Rider",
