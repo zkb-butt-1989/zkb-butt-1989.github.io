@@ -25,7 +25,7 @@ window.PORTFOLIO = {
       "My path into software started in electrical engineering. I hold an engineering degree in Electrical, Electronics & Communications from the University of Lahore and began my career at <strong>Bilal Switchgear Engineering</strong>, designing industrial LT and MV electrical panels and working on R&D for new panel designs, then taking them through testing and final inspection. I later moved into industrial electronics, diagnosing and maintaining CTP imaging machines.",
       "Programming has been my passion since 2006, when I wrote my first lines of <strong>GW-BASIC</strong> in school. I always wanted to work on hybrid and IoT systems where hardware and software meet, so I moved into software engineering, the field that gives the most room to build. That design, prototype and test mindset from engineering still shapes how I build software, especially for BLE and hardware integrations.",
       "Over the last few months I've made <strong>agentic AI</strong> part of how I work, to ship faster while keeping code clean and secure. I plan every task with an AI agent such as Cursor or Claude: I ask questions and weigh its suggestions, the agent asks me clarifying questions, and together we arrive at a solid plan. I review and revise that plan myself before letting the agent implement it.",
-      "Looking ahead, I'm learning to become a Forward Deployed Engineer and agentic AI architect through <a href=\"https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect/\" target=\"_blank\" rel=\"noopener noreferrer\">The Forward Deployed Engineer & Agentic AI Architect</a> course.",
+      "Looking ahead, I'm working toward becoming a Forward Deployed Engineer and agentic AI architect. I'm currently taking the <strong>AI FDE: The Forward Deployed Engineer & Agentic AI Architect</strong> course, which covers building AI agents with the Claude Agent SDK, LangChain and LangGraph, agentic RAG, evals and observability, guardrails, and running agents in production on AWS.",
     ],
     email: "zabi.butt1989@gmail.com",
     linkedin: "https://www.linkedin.com/in/zubair-khalid-20bb769a/",
@@ -732,12 +732,11 @@ window.PORTFOLIO = {
   // Certifications & technical courses (newest first). `link` is optional.
   certifications: [
     {
-      name: "The Forward Deployed Engineer & Agentic AI Architect",
+      name: "AI FDE: The Forward Deployed Engineer & Agentic AI Architect",
       issuer: "Udemy",
       date: "In progress",
-      description: "Learning the Forward Deployed Engineer role and how to design and build agentic AI systems.",
-      link: "https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect/",
-      linkLabel: "View course",
+      description:
+        "Hands-on roadmap to the Forward Deployed Engineer role: building agents with the Claude Agent SDK, LangChain and LangGraph, agentic RAG over MCP, evals and observability, AI guardrails, and production agents on AWS Bedrock.",
     },
     {
       name: "Flutter & Dart: The Complete Guide",
