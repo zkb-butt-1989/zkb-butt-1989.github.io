@@ -13,7 +13,7 @@ window.PORTFOLIO = {
   profile: {
     name: "Zubair Khalid",
     initials: "ZK",
-    title: "Senior Software Engineer",
+    title: "Senior Software Engineer | Mobile & Full-Stack",
     stack: "Android · Flutter · React Native · .NET",
     currentRole: "Lead Mobile Engineer at Martoo",
     location: "Lahore, Pakistan",
