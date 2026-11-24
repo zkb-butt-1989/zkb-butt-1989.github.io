@@ -79,7 +79,7 @@ window.PORTFOLIO = {
     {
       icon: "layers",
       title: "Cross-platform",
-      items: ["Flutter", "Dart", "React Native", "React", "Ionic", "TypeScript"],
+      items: ["Flutter", "Dart", "React Native", "React", "Ionic", "Angular", "Capacitor", "TypeScript"],
     },
     {
       icon: "server",
