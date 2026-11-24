@@ -421,10 +421,34 @@ window.PORTFOLIO = {
       category: "android",
       client: "Dillner's Accounting Tools",
       summary:
-        "On-the-go access to an accounting firm's Virtual Office: uploaded documents, files and other portal features, anytime.",
-      tags: ["Android", "Document access", "Security"],
+        "The first app I led (late 2021): a native Android client portal for an accounting firm, with encrypted document uploads, real-time chat and role-based dashboards.",
+      tags: ["Kotlin", "MVVM", "AWS AppSync", "DynamoDB", "Kodein", "Team lead"],
       links: { play: "https://play.google.com/store/apps/details?id=com.dillner.vomobile" },
       featured: true,
+      details: {
+        overview:
+          "Secure Client Portals gives an accounting firm's clients on-the-go access to their Virtual Office: uploaded documents, files and other portal features, with in-app chat and dashboards for each user role.",
+        role:
+          "The first app I led, starting in late 2021. I set up the native Android foundation and architecture, and led development of the app's core features.",
+        architecture: [
+          "Native Android in Kotlin with MVVM architecture and ViewModels",
+          "Repository pattern for a clean, testable data layer",
+          "Two-way data binding between views and ViewModels",
+          "Kodein for dependency injection",
+          "Secure storage for tokens and sensitive data",
+        ],
+        built: [
+          "Real-time chat backed by AWS AppSync and DynamoDB",
+          "Encrypted file uploads to AWS using a client-provided encryption key",
+          "WebSocket integration for real-time updates",
+          "Multiple user roles, each with its own dashboard",
+        ],
+        features: [
+          "Secure access to Virtual Office documents and files",
+          "In-app chat",
+          "Role-based dashboards",
+        ],
+      },
     },
     {
       name: "Mr. Rebounder",
