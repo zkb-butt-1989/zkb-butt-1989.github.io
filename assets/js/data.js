@@ -542,6 +542,7 @@ window.PORTFOLIO = {
     {
       name: "CritMe",
       category: "cross",
+      engagement: "Freelance",
       summary: "Cross-platform mobile app built with Flutter.", // TODO: details
       tags: ["Flutter", "Dart"],
       links: {},
@@ -549,6 +550,7 @@ window.PORTFOLIO = {
     {
       name: "RAK External Trip",
       category: "android",
+      engagement: "Freelance",
       summary: "Mobile app for planning and managing external trips.", // TODO: details
       tags: ["Android"],
       links: {},
@@ -556,6 +558,7 @@ window.PORTFOLIO = {
     {
       name: "Admin Chiesi",
       category: "android",
+      engagement: "Freelance",
       summary: "Administration app built for Chiesi.", // TODO: details
       tags: ["Android"],
       links: {},
