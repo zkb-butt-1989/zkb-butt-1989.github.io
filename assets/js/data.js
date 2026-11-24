@@ -417,6 +417,29 @@ window.PORTFOLIO = {
       },
     },
     {
+      name: "Secure Client Portals",
+      category: "android",
+      client: "Dillner's Accounting Tools",
+      summary:
+        "On-the-go access to an accounting firm's Virtual Office: uploaded documents, files and other portal features, anytime.",
+      tags: ["Android", "Document access", "Security"],
+      links: { play: "https://play.google.com/store/apps/details?id=com.dillner.vomobile" },
+      featured: true,
+    },
+    {
+      name: "Mr. Rebounder",
+      category: "cross",
+      client: "Cellercise · Cellular Health Innovations",
+      summary:
+        "Virtual trainer app for rebounder workouts: choose pre-made routines or build your own and exercise on your schedule.",
+      tags: ["React Native", "iOS & Android", "Fitness"],
+      links: {
+        play: "https://play.google.com/store/apps/details?id=com.cellercise.rebounder",
+        appStore: "https://apps.apple.com/us/app/mr-rebounder/id1300713793",
+      },
+      featured: true,
+    },
+    {
       name: "Genetic Basketball (GB)",
       category: "cross",
       summary:
@@ -492,29 +515,6 @@ window.PORTFOLIO = {
         "Connects restaurants with people to sell surplus food at a discount, cutting food waste and saving customers money.",
       tags: ["Android", "Marketplace", "Sustainability"],
       links: { play: "https://play.google.com/store/apps/details?id=com.budgetbites" },
-      featured: true,
-    },
-    {
-      name: "Secure Client Portals",
-      category: "android",
-      client: "Dillner's Accounting Tools",
-      summary:
-        "On-the-go access to an accounting firm's Virtual Office: uploaded documents, files and other portal features, anytime.",
-      tags: ["Android", "Document access", "Security"],
-      links: { play: "https://play.google.com/store/apps/details?id=com.dillner.vomobile" },
-      featured: true,
-    },
-    {
-      name: "Mr. Rebounder",
-      category: "cross",
-      client: "Cellercise · Cellular Health Innovations",
-      summary:
-        "Virtual trainer app for rebounder workouts: choose pre-made routines or build your own and exercise on your schedule.",
-      tags: ["React Native", "iOS & Android", "Fitness"],
-      links: {
-        play: "https://play.google.com/store/apps/details?id=com.cellercise.rebounder",
-        appStore: "https://apps.apple.com/us/app/mr-rebounder/id1300713793",
-      },
       featured: true,
     },
     {
