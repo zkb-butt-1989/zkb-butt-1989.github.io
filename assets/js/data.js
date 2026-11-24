@@ -206,13 +206,14 @@ window.PORTFOLIO = {
           start: "Aug 2020",
           end: "Feb 2021",
           bullets: [
-            "Built Android features and .NET back-end components, implementing RESTful APIs and database schemas.",
+            "Built Android features and .NET Core back-end services, implementing RESTful APIs for the mobile apps.",
+            "Created the SQL Server database with Entity Framework Core's code-first approach, defining the schema in C# models and evolving it through migrations.",
             "Integrated back-end services with mobile clients and resolved production issues to improve reliability.",
-            "Worked across Android, C# and SQL to deliver end-to-end features faster.",
+            "Worked across Android, C#, .NET Core and SQL Server to deliver end-to-end features faster.",
           ],
         },
       ],
-      tags: ["Android", "C#", ".NET", "REST APIs", "SQL Server"],
+      tags: ["Android", "C#", ".NET Core", "Entity Framework Core", "Code First", "REST APIs", "SQL Server"],
     },
     {
       company: "CoinBitSolutions",
