@@ -94,6 +94,8 @@ window.PORTFOLIO = {
         "Scrum",
         "Kanban",
         "CI/CD",
+        "Expo EAS",
+        "OTA (over-the-air) updates",
         "Code review",
         "JUnit",
         "Espresso",
