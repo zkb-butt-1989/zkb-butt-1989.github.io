@@ -296,6 +296,7 @@
           "</div>" +
           badge +
           '<h3 class="project__name">' + esc(p.name) + "</h3>" +
+          (p.engagement ? '<span class="note-badge project__engagement">' + esc(p.engagement) + "</span>" : "") +
           (p.client ? '<p class="project__client">' + esc(p.client) + "</p>" : "") +
           '<p class="project__summary">' + esc(p.summary) + "</p>" +
           tagsHtml(p.tags) +
@@ -432,6 +433,7 @@
       '<button type="button" class="icon-btn modal__close" data-close aria-label="Close details">' + icon("x") + "</button>" +
       '<p class="modal__eyebrow">' + esc(categoryLabel(D.projectFilters, p.category)) + "</p>" +
       '<h2 class="modal__title" id="modal-title">' + esc(p.name) + "</h2>" +
+      (p.engagement ? '<span class="note-badge project__engagement">' + esc(p.engagement) + "</span>" : "") +
       (p.client ? '<p class="modal__client">' + esc(p.client) + "</p>" : "") +
       textSection("Overview", d.overview || p.summary) +
       textSection("My role", d.role) +

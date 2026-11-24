@@ -1210,6 +1210,11 @@ svg {
   background: currentColor;
 }
 
+.project__engagement {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
 .project__name {
   font-size: 18px;
   font-weight: 700;

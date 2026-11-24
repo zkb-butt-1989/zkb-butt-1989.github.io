@@ -442,6 +442,7 @@ window.PORTFOLIO = {
     {
       name: "Genetic Basketball (GB)",
       category: "cross",
+      engagement: "Freelance",
       summary:
         "Flutter basketball app for iOS and Android that connects players with community centers for games, 8v8 tournaments and live chat.",
       tags: ["Flutter", "iOS & Android", "Firebase", "AWS Amplify", "RevenueCat"],
@@ -462,6 +463,7 @@ window.PORTFOLIO = {
     {
       name: "Hue Spectra",
       category: "cross",
+      engagement: "Freelance",
       summary:
         "AI-powered accessibility app for colorblind users: real-time color detection, food doneness analysis and object recognition.",
       tags: ["Flutter", "iOS & Android", "OpenAI", "Computer vision", "Machine learning", "RevenueCat"],
