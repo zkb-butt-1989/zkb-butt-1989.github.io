@@ -45,7 +45,7 @@ window.PORTFOLIO = {
   stats: [
     { value: "8+", label: "Years building software" },
     { value: "20+", label: "Apps & products delivered" },
-    { value: "11", label: "Apps live on Google Play & App Store" },
+    { value: "15+", label: "Apps shipped to Google Play & App Store" },
     { value: "4", label: "Mobile stacks shipped" },
   ],
 
